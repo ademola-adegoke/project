@@ -1,0 +1,32 @@
+#Model-3{
+    height: 742px;
+    background-image: url(./FOTO/M3-Homepage-Desktop-LHD.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: 1px;
+    position: relative;
+}
+
+.botton{
+    border: none;
+    position: relative;
+    top: 450px;
+    left: 35%;
+    width: 250px;
+    padding: 7px;
+    margin: 10px;
+    border-radius: 5px;
+    color: white;
+}
+#ModelXY{
+    height: 742px;
+    background-image: url(./FOTO/Desktop-ModelY.jpg);
+    background-position: center;
+    background-size: cover;
+    background-position: 1px;  
+}
+@media (max-width:600px){
+    .botton{
+        left: 25%;
+    }
+}
